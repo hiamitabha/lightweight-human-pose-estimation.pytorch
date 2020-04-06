@@ -48,7 +48,7 @@ def extract_keypoints(heatmap, all_keypoints, total_keypoint_num):
     return keypoint_num
 
 
-def group_keypoints(all_keypoints_by_type, pafs, pose_entry_size=20, min_paf_score=0.05, demo=False):
+def group_keypoints(all_keypoints_by_type, pafs, pose_entry_size=20, min_paf_score=0.25, demo=False):
     pose_entries = []
     all_keypoints = np.array([item for sublist in all_keypoints_by_type for item in sublist])
     for part_id in range(len(BODY_PARTS_PAF_IDS)):
