@@ -1,6 +1,5 @@
 # Anki Vector: Do Not Touch Your Face
 
-
 To run the model on Vector, make sure you had the sdk set up.
 then run this:
 
@@ -18,6 +17,7 @@ python demo.py --checkpoint-path models/checkpoint_iter_370000.pth --images data
 ```
  
 <p align="center">
-  <img src="data/preview.jpg" />
+  <img src="data/demo.gif" />
 </p>
+
 _____________________________________________________
